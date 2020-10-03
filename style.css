@@ -398,6 +398,15 @@
 			height: 120px;
 			border-radius: 15px 15px 0px 0px;
 			border: 5px white solid;
+			overflow: hidden;
+		}
+
+		.hébergement img
+		{
+		
+			object-fit: cover;
+			width: 100%;
+			height: 120px;
 
 		}
 
@@ -423,53 +432,6 @@
 
 
 
-
-
-
-
-		/* images hébergements à Marseille*/
-
-			#marcus-loke
-			{
-				background: url(images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg) no-repeat;
-				background-position: center;
-				background-size: cover;
-			}
-
-			#fred-kleber
-			{
-				background: url(images/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg) no-repeat;
-				background-position: center;
-				background-size: cover;
-			}
-
-			#reisetopia
-			{
-				background: url(images/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg) no-repeat;
-				background-position: center;
-				background-size: cover;
-			}
-
-			#annie-spratt
-			{
-				background: url(images/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg) no-repeat;
-				background-position: center;
-				background-size: cover;
-			}
-
-			#nicate-lee
-			{
-				background: url(images/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) no-repeat;
-				background-position: center;
-				background-size: cover;
-			}
-					
-			#febrian-zakaria
-			{
-				background: url(images/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) no-repeat;
-				background-position: center;
-				background-size: cover;
-			}
 
 	/*aside*/
 
