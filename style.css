@@ -137,12 +137,15 @@
 	header ul
 	{
 		display: flex;	
-		margin: 0px;	
+		margin: 0px;
+		padding-left: 0px;	
 	}
 
 	header
 	{
 		width: 90%;
+		max-width: 1920px;
+
 		margin: auto;
 		height: 150px;
 		display: flex;
@@ -157,7 +160,7 @@
 
 
 
-/*Recherche*/
+
 	.sous_titre
 	{
 		margin-top: 10px;
@@ -226,25 +229,19 @@
 
 	}
 
-	/*
 
-/* Filtres */
 
-	.filtres
-	{
-		display: flex;
-		justify-content: flex-start;
+.filtres{
+	display: flex;
+	justify-content: flex-start;
 
-		flex-wrap: wrap;
+	flex-wrap: wrap;
 
-	}
-
-	.filtres p
-	{
-		font-family: 'ralewaybold';
-		font-size: large;
-	
-	}
+}
+.filtres p {
+	font-family: 'ralewaybold';
+	font-size: large;
+}
 
 
 
@@ -547,51 +544,7 @@
 
 /*activités*/
 
-	.activités
-	{
-		height: 500px;
-		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
-		align-content: flex-start;
-	}
 
-	.activités article
-	{
-		width: 20%;
-	}
-
-	.row2
-	{
-		height: 50%;
-	}
-
-	.row1
-	{
-		height: 100%;
-	}
-
-
-
-	.activités_img
-	{
-		height: 100%;
-		width: 100%;
-		overflow: hidden;
-	}
-
-	
-	.activités_img img
-	{
-	 height: 100%;
-	 width: 100%;
-	 object-fit: cover;
-	}
-
-	.row2
-	{
-		height: 50%;
-	}
 
 
 
@@ -611,6 +564,8 @@
 		footer
 		{
 			width: 90%;
+			max-width: 1920px;
+			margin: auto;
 			padding-left: 5%;
 			padding-right: 5%;
 			height: 200px;

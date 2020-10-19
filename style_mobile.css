@@ -1,0 +1,48 @@
+
+
+header img
+{
+    order: 1;
+}
+
+header nav
+{
+    order:3;
+    width: 100%;
+}
+
+header li
+{
+    width: 55%;
+}
+
+.inscription
+{
+    order: 2;
+}
+
+header
+{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 300px;
+    margin: 5%;
+}
+
+.résultats
+{
+    flex-direction: column;
+    width: 100%;
+}
+
+.résultats aside
+{
+    width: 90%;
+    order: 1;
+}
+
+.résultats section
+{
+    width: 90%;
+    order: 2;
+}
