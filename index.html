@@ -4,9 +4,9 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./style.css">
-	<link rel="stylesheet" media="all and (max-width: 1199px)" href="./style_middlesize.css">
-	<link rel="stylesheet" media="all and (max-width: 768px)" href="./style_mobile.css">
-	<link rel="stylesheet" media="all and (max-device-width: 480px)" href="./style_mobile.css">
+	<link rel="stylesheet" media="all and (max-width: 1199px)" href="./style_1199.css">
+	<link rel="stylesheet" media="all and (max-width: 768px)" href="./style_768.css">
+	<link rel="stylesheet" media="all and (max-device-width: 480px)" href="./style_480.css">
 
 	<link rel='icon' type="image/png"href="./images/icon.png"/>
 	<title>Reservia - Trouvez votre hébergement pour des vacances de rêve</title>
@@ -49,14 +49,20 @@
 		<form class="search">
 				<i id="icon_map" class="fas fa-map-marker-alt"></i>
 				<input class="recherche"	type="search" name="search" value="Marseille, France">
-				<input class="bouton_rechercher" type="submit" value="Rechercher" />
+				<p id="text_search"class="bouton_rechercher"> Rechercher</p>
+				<i id="icon_search"class="bouton_rechercher fas fa-search"></i>
+
+
+			
 		</form>
 		<div class="filtres">
-			<div><p>Filtres</p></div>
-			<a href="#"><div class="bouton_filtre"><p class="icon_filtre"><i class="fas fa-money-bill-wave blue"></i></p><p class="libellé">Economique</p></div></a>
-			<a href="#"><div class="bouton_filtre"><p class="icon_filtre" ><i class="fas fa-child blue"></i></p><p class="libellé">Familial</p></div></a>
-			<a href="#"><div class="bouton_filtre"><p class="icon_filtre" ><i class="fas fa-heart blue"></i></p><p class="libellé">Romantique</p></div></a>
-			<a href="#"><div class="bouton_filtre"><p class="icon_filtre" ><i class="fas fa-dog blue"></i></p><p class="libellé">Animaux autorisés</p></div></a>
+			<p>Filtres</p>
+			<div class="filtres_mobile">
+				<a href="#"><div class="bouton_filtre"><p class="icon_filtre"><i class="fas fa-money-bill-wave blue"></i></p><p class="libellé">Economique</p></div></a>
+				<a href="#"><div class="bouton_filtre"><p class="icon_filtre" ><i class="fas fa-child blue"></i></p><p class="libellé">Familial</p></div></a>
+				<a href="#"><div class="bouton_filtre"><p class="icon_filtre" ><i class="fas fa-heart blue"></i></p><p class="libellé">Romantique</p></div></a>
+				<a href="#"><div class="bouton_filtre"><p class="icon_filtre" ><i class="fas fa-dog blue"></i></p><p class="libellé">Animaux autorisés</p></div></a>
+			</div>
 		</div>
 		</section>
 
