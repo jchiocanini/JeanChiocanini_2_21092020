@@ -1,0 +1,35 @@
+
+.logo{
+	width: 40%;
+}
+
+.hebergement_contener{
+	width: 94%;
+    margin: 3%;
+}
+
+.resultats section{
+    background-color: white;
+    }
+
+.activites_contener{
+    width: 94%;
+    flex-direction: column;
+}
+
+.activites_row{
+    width: 100%;
+    margin: 0px;
+}
+
+.activites_row article{
+    height: 155px;
+    width: 100%;
+}
+
+.img_contener{
+    height: 100px;
+}
+.activites_row a{
+    margin-bottom: 15px;
+}

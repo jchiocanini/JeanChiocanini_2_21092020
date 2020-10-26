@@ -1,0 +1,170 @@
+main{
+    width: 100%;
+    padding: 0px;
+    margin-top: 40px;
+
+}
+
+header img{
+    order: 1;
+    margin-left: 3%;
+}
+
+header nav{
+    order:3;
+    width: 100%;
+    display: flex;
+}
+
+header{
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 200px;
+    margin: 0px;
+}
+
+.navigation{
+    border-bottom: 3px solid #F2F2F2;
+    width: 50%;
+    height: 50px;
+    border-top: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation:hover{
+    border-bottom: 3px solid #0065FC;
+    border-top: none;
+}
+.navigation a:hover{
+	color: #0065FC;
+}
+.inscription{
+    order: 2;
+    margin: 0px;
+    margin-right: 3%;
+	padding-left: 50px;
+	padding-top: 53px;
+	padding-bottom: 50px;
+
+}
+
+.inscription a{
+	font-family: 'ralewaybold';
+	color: #0065FC;
+}
+
+header ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+	margin: 0px;
+	padding-left: 0px;	
+}
+
+.search_mobile{
+    width: 94%;
+    margin: auto;
+}
+
+.logements_dispo{
+    margin-left: 3%;
+}
+
+.search{
+    width: 100%;
+}
+.recherche{
+    flex: 1;
+}
+
+#icon_search{
+    display: flex;
+    width: 60px;
+		height: 54.8px;
+		justify-content: space-around;
+        align-items: center;
+        border-radius: 0px 15px 15px 0px;
+        margin-left: -5%;
+}
+
+#text_search{
+    display: none;
+}
+
+.filtres{
+    display: block;
+}
+
+.filtres_mobile{
+    justify-content: space-between;
+}
+
+.bouton_filtre{
+    margin-left: 0px;
+    
+}
+
+.resultat{
+    flex-direction: column;
+    width: 100%;
+    margin: 0%;
+}
+
+.resultat aside{
+    width: 94%;
+    margin: 0%;
+    order: 1;
+    border-radius: 0px;
+}
+
+.resultat section{
+    width: 94%;
+    margin: 0%;
+    order: 2;
+    border-radius: 0px;
+}
+
+.hebergement_marseille h2{
+    margin-left: 1.5%;
+}
+
+.pop_title h2{
+    margin-left: 1.5%;
+
+}
+
+.afficher_plus{
+    padding-left: 3%;
+}
+
+.activites_row{
+    width: 45%;
+    margin: 2.5%;
+}
+
+#Activites{
+    width: 94%;
+    margin: 0%;
+    padding: 3%;
+
+}
+
+#Activites h2{
+margin: 3%;
+ }
+
+.activites_contener{
+    margin-bottom: 0px;
+}
+
+footer{
+    flex-direction: column;
+}
+
+footer nav{
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+.bouton_filtre
+{
+    margin-bottom: 10px;
+}
+
+.resultat aside{
+    width: 32%;
+
+}
+
+.resultat section{
+    width: 55%;
+
+}
+
+.hebergement_contener{
+	width: 45%;
+    margin: 2.5%;
+}
+
+.activites{
+    flex-direction: column;
+}
+
+.activites_row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 47%;
+    margin: 0%;
+}
+
+.mobile_reverse{
+    flex-direction: row-reverse
+}
